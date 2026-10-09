@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
         ivLogo.setAnimation(bouncing_animation);
 
         new Handler().postDelayed(()->{
-            Intent i = new Intent(MainActivity.this, Home.class);
+            Intent i = new Intent(MainActivity.this, LearningFragmentsActivity.class);
             startActivity(i);
             finish();
-        }, 3000);
+        }, 5000);
     }
 
     private void init()
